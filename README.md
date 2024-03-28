@@ -1,7 +1,7 @@
-# Teaching Multimodal LLM about Pokemon
+# Teaching Pokemon To Multimodal LLM
 
 ## Overview
-This project teaches a pre-trained multimodal LLM from Hugging Face called IDEFICS-9B about Pokemon. The model is fine-tuned on a Pokemon dataset (images and descriptions) using the QLoRa method. Before, when prompted with a Pokemons image the pre-trained model demonstrated a very limited knowledge as it could only give the name of a Pokemon. After training on new data, when given the same prompts the model demonstrated a much deeper understanding of Pokemon including their type, HP, rarity, etc.
+This project finetunes a pre-trained multimodal LLM from Hugging Face called IDEFICS-9B on Pokemon. The model is fine-tuned on a Pokemon dataset (images and descriptions) using the QLoRa method. Before, when prompted with a Pokemons image the pre-trained model demonstrated a very limited knowledge as it could only give the name of a Pokemon. After training on new data, when given the same prompts the model demonstrated a much deeper understanding of Pokemon including their type, HP, rarity, etc.
 
 ## Data Pre-Processing
 Transformations applied to the dataset include random resized cropping (to prevent overfitting) and normalisation of pixel values. Images are converted to RGB format if they are not already in RGB format.
