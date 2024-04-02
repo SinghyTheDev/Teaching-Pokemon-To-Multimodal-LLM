@@ -7,7 +7,7 @@ In this project the QLoRA method is used to fine-tune a pre-trained multimodal L
 Transformations applied to the dataset include random resized cropping (to prevent overfitting) and normalisation of pixel values. Images are converted to RGB format if they are not already in RGB format.
 
 ## Training
-To prepare the pre-trained LLM for training, it's quantized to 4-bit precision for efficiency. LoRA (Low Rank Adaptation) is then applied to enhance the models adaptability to new data.
+To prepare the pre-trained LLM for training, it is quantized to 4-bit precision for efficiency. LoRA (Low Rank Adaptation) is then applied to enhance the models adaptability to new data.
 
 ## Output
 Before fine-tuning, when prompted with Pokemon related image/text prompts the pre-trained model generated a very limited knowledge as it could only give the name of a Pokemon. After training on new data, when given the same prompts the model generated a much deeper understanding of Pokemon including their type, HP, rarity, etc.
