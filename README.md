@@ -13,4 +13,4 @@ To prepare the pre-trained LLM for training it is quantized to 4-bit precision f
 Before fine-tuning, when prompted with Pokemon related image/text prompts the pre-trained model generated a very limited knowledge as it could only give the name of a Pokemon. After training on new data, when given the same prompts the model generated a much deeper understanding of Pokemon including their type, HP, rarity, etc.
 
 ## Conclusion
-The fine-tuned LLM demonstrates enhanced knowledge of Pokemon compared to its initial state. This project showcases the training of multimodal models on domain specific datasets to improve their performance in specific tasks. Larger datasets and further fine-tuning will likely yield even better results in the models ability to understand Pokemon.
+The fine-tuned LLM demonstrates enhanced knowledge of Pokemon compared to its initial state. This project showcases the training of multimodal models on domain-specific datasets to improve their performance in specific tasks. Larger datasets and further fine-tuning will likely yield even better results in the models ability to understand Pokemon.
